@@ -1,0 +1,36 @@
+.portfolio{
+    background-image: url('../../img/bg-home.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.portfolio-body{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width: 1200px) {
+    .cardlink{
+        width: 100% !important;
+    }
+    .cardportfolio{
+        width: 50%;
+    }
+    .cardclass{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardportfolio{
+        width: 100%;
+    }
+    .cardclass{
+        justify-content: center;
+    }
+    .cardlink{
+        width: 100% !important;
+    }
+}

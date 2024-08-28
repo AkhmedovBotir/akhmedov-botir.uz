@@ -1,0 +1,7 @@
+export { default as Navbar } from "./Navbar/Navbar"
+export { default as Header } from "./Header/Header"
+export { default as Work } from "./Work/Work"
+export { default as PortfolioCarousel } from "./Portfolio-carousel/Portfolio-carousel"
+export { default as Your } from "./Your/Your"
+export { default as Portfolios } from "./Portfolio/Portfolio"
+export { default as Footer } from "./Footer/Footer"

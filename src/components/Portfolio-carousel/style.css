@@ -1,0 +1,92 @@
+.portfolio-card {
+    box-shadow: 1px 1px 10px 1px #44444446;
+    height: 100%;
+}
+
+.portfolio-btn {
+    border: 1px solid #a43dff !important;
+    color: #a43dff;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.card-img-top{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio-btn:hover {
+    background-color: #a43dff;
+    color: white;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.portfolio-btn1 {
+    background-color: #a43dff;
+    color: white;
+    border: 1px solid #a43dff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.portfolio-btn1:hover {
+    background-color: transparent;
+    color: #a43dff;
+}
+
+.your {
+    background: #132238;
+
+}
+
+.your-button {
+    background-color: #a43dff;
+    color: white;
+    border: 1px solid #a43dff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.your-button:hover {
+    background-color: transparent;
+    color: #a43dff;
+}
+
+.your .container p {
+    font-weight: lighter
+}
+
+@media (max-width: 992px) {
+    .portfoliocard .row {
+        justify-content: center;
+    }
+
+    .portfoliocard .row .col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfoliocard .row .col{
+        width: 100% !important;
+    }
+}
+@media (max-width: 425px) {
+    .card-subtitle{
+        font-size: .7rem;
+    }
+    .card-title{
+        font-size: 1.2rem;
+    }
+    .card-text{
+        font-size: .8rem;
+    }
+    .portfolio-btn svg,
+    .portfolio-btn{
+        font-size: .8rem;
+    }
+}

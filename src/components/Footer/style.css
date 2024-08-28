@@ -1,0 +1,47 @@
+.footer-font a{
+    text-decoration: none;
+    color: #a43dff;
+}
+.footer-font a:hover{
+    color: #000;
+    transition: all .5s ease;
+}
+
+.footer-title{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.text-end{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 992px) {
+    .footer-title{
+        font-size: 1rem;
+    }
+    .text-end{
+        font-size: 0.8rem;
+    }
+    .footer-font a{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .footer .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .text-end{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-font{
+        width: 50%;
+        padding: 1rem 0;
+    }
+}

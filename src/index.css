@@ -1,0 +1,18 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bold-font{
+    font-weight: 900;
+}
+
+@media (max-width: 992px) {
+    .bold-font{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 375px) {
+    .mmm{
+        padding: 15vh 0 !important;
+    }
+}

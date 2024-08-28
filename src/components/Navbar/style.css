@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    background: rgba(255, 255, 255, 0.178) !important;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.185);
+}
+.navbar-brand a,
+.navbar-nav a{
+    text-decoration: none !important;
+    font-weight: 700;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.navbar-nav a:hover{
+    background-color: #a43dff;
+    color: white;
+}
+
+.navbar-nav .nav-contact{
+    background-color: #a43dff !important;
+    color: white !important;
+    border: 0 solid #a43dff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.navbar-nav .nav-contact:hover{
+    background-color: transparent !important;
+    color: #a43dff !important;
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 425px) {
+    .your-title{
+        font-size: 1.2rem;
+    }
+    .your-sub{
+        font-size: .8rem;
+    }
+    .your-button{
+        font-size:.8rem;
+    }
+}
